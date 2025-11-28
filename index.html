@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNSA Integra - Conecta, Participa, Gana</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <i class="bi bi-mortarboard-fill me-2"></i>
+                <span class="fw-bold">UNSA INTEGRA</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eventos">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#juegos">Juegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#puntos">Puntos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reuniones">Reuniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                </ul>
+                <a href="#registro" class="btn btn-light ms-lg-3">Únete Ahora</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="page-top">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="badge bg-bone text-dark mb-3 px-4 py-2">
+                        <i class="bi bi-mortarboard me-2"></i>Plataforma de Integración Universitaria
+                    </span>
+                    <h1 class="display-1 fw-bold text-white mb-4">
+                        CONECTA<br>
+                        PARTICIPA<br>
+                        <span class="text-bone">GANA</span>
+                    </h1>
+                    <p class="lead text-white-50 mb-4">
+                        Únete a la comunidad más activa de la UNSA. Participa en eventos, juegos y reuniones, 
+                        acumula puntos y obtén beneficios exclusivos.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap justify-content-center justify-content-lg-start">
+                        <a href="#registro" class="btn btn-light btn-lg px-4">
+                            Comenzar Ahora <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#eventos" class="btn btn-outline-light btn-lg px-4">
+                            Ver Eventos
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-illustration">
+                        <div class="floating-card card-1">
+                            <i class="bi bi-calendar-event"></i>
+                            <h6>150+</h6>
+                            <p>Eventos</p>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="bi bi-people"></i>
+                            <h6>2,500+</h6>
+                            <p>Estudiantes</p>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="bi bi-trophy"></i>
+                            <h6>98%</h6>
+                            <p>Satisfacción</p>
+                        </div>
+                        <div class="floating-card card-4">
+                            <i class="bi bi-star-fill"></i>
+                            <h6>15K+</h6>
+                            <p>Puntos Canjeados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-4">
+                    <div class="stat-item">
+                        <h2 class="display-4 fw-bold text-burgundy mb-0">2,500</h2>
+                        <p class="text-muted mb-0">Estudiantes Activos</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="stat-item">
+                        <h2 class="display-4 fw-bold text-burgundy mb-0">150+</h2>
+                        <p class="text-muted mb-0">Eventos Realizados</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="stat-item">
+                        <h2 class="display-4 fw-bold text-burgundy mb-0">98%</h2>
+                        <p class="text-muted mb-0">Satisfacción</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="py-5" id="eventos">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-burgundy text-white mb-3 px-4 py-2">PRÓXIMOS EVENTOS</span>
+                    <h2 class="display-4 fw-bold mb-3">No Te Pierdas Ningún Evento</h2>
+                    <p class="lead text-muted">
+                        Participa en actividades diseñadas para conectar estudiantes de todas las facultades 
+                        y acumula puntos mientras te diviertes.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card event-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-burgundy text-white p-4 position-relative">
+                            <div class="event-icon">
+                                <i class="bi bi-mic-fill"></i>
+                            </div>
+                            <div class="event-date">
+                                <div class="day">15</div>
+                                <div class="month">DIC</div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-bone text-dark mb-2">Cultural</span>
+                            <h5 class="card-title fw-bold mb-3">Noche de Talentos UNSA</h5>
+                            <p class="card-text text-muted">
+                                Muestra tu talento artístico frente a toda la comunidad universitaria. 
+                                Canto, baile, música y más.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-top p-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-burgundy fw-bold">
+                                    <i class="bi bi-star-fill me-1"></i> +200 puntos
+                                </div>
+                                <a href="#" class="btn btn-burgundy btn-sm">
+                                    Inscribirse <i class="bi bi-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card event-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-burgundy text-white p-4 position-relative">
+                            <div class="event-icon">
+                                <i class="bi bi-trophy-fill"></i>
+                            </div>
+                            <div class="event-date">
+                                <div class="day">18</div>
+                                <div class="month">DIC</div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-bone text-dark mb-2">Deportivo</span>
+                            <h5 class="card-title fw-bold mb-3">Olimpiadas Interfacultades</h5>
+                            <p class="card-text text-muted">
+                                Representa a tu facultad en las competencias de fútbol, vóley, 
+                                básquet y más disciplinas.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-top p-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-burgundy fw-bold">
+                                    <i class="bi bi-star-fill me-1"></i> +350 puntos
+                                </div>
+                                <a href="#" class="btn btn-burgundy btn-sm">
+                                    Inscribirse <i class="bi bi-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card event-card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-burgundy text-white p-4 position-relative">
+                            <div class="event-icon">
+                                <i class="bi bi-laptop-fill"></i>
+                            </div>
+                            <div class="event-date">
+                                <div class="day">22</div>
+                                <div class="month">DIC</div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-bone text-dark mb-2">Académico</span>
+                            <h5 class="card-title fw-bold mb-3">Hackathon Innovación Social</h5>
+                            <p class="card-text text-muted">
+                                48 horas para crear soluciones tecnológicas que impacten positivamente 
+                                en la comunidad arequipeña.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-top p-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-burgundy fw-bold">
+                                    <i class="bi bi-star-fill me-1"></i> +500 puntos
+                                </div>
+                                <a href="#" class="btn btn-burgundy btn-sm">
+                                    Inscribirse <i class="bi bi-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="bg-light py-5" id="juegos">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <span class="badge bg-burgundy text-white mb-3 px-4 py-2">ZONA DE JUEGOS</span>
+                    <h2 class="display-4 fw-bold mb-4">Compite y Diviértete</h2>
+                    <p class="lead text-muted mb-4">
+                        Los juegos son parte fundamental de la integración. Participa en torneos, 
+                        competencias y actividades lúdicas que te ayudarán a conocer estudiantes 
+                        de otras carreras mientras acumulas puntos.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="feature-box d-flex align-items-start">
+                                <div class="feature-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold mb-2">Torneos Semanales</h6>
+                                    <p class="text-muted mb-0">Competencias cada semana con premios exclusivos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="feature-box d-flex align-items-start">
+                                <div class="feature-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold mb-2">Equipos Mixtos</h6>
+                                    <p class="text-muted mb-0">Forma equipos con estudiantes de diferentes facultades</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="feature-box d-flex align-items-start">
+                                <div class="feature-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-award-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold mb-2">Rankings y Premios</h6>
+                                    <p class="text-muted mb-0">Escala posiciones y gana beneficios increíbles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card game-card border-0 shadow-sm overflow-hidden fade-in-up">
+                                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&q=80" 
+                                     alt="Esports" 
+                                     class="card-img-top" 
+                                     style="height: 180px; object-fit: cover;">
+                                <div class="card-body text-center p-3">
+                                    <h5 class="fw-bold mb-2">Torneo Esports</h5>
+                                    <p class="text-muted mb-2 small">
+                                        Competencias semanales de videojuegos. Participa en League of Legends, 
+                                        Valorant, FIFA y más. Premios para los mejores equipos.
+                                    </p>
+                                    <span class="badge bg-burgundy">Todos los viernes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card game-card border-0 shadow-sm overflow-hidden fade-in-up">
+                                <img src="https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=500&q=80" 
+                                     alt="Juegos de Mesa" 
+                                     class="card-img-top" 
+                                     style="height: 180px; object-fit: cover;">
+                                <div class="card-body text-center p-3">
+                                    <h5 class="fw-bold mb-2">Juegos de Mesa</h5>
+                                    <p class="text-muted mb-2 small">
+                                        Tardes de estrategia y diversión. Ajedrez, UNO, Monopoly, Jenga y más. 
+                                        Conoce gente nueva mientras ejercitas tu mente.
+                                    </p>
+                                    <span class="badge bg-burgundy">Miércoles y sábados</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card game-card border-0 shadow-sm overflow-hidden fade-in-up">
+                                <img src="https://s.ineventos.com/pe/2016/08/118842/la-gymkana-334488-i-640w.jpg" 
+                                     alt="Gymkana UNSA" 
+                                     class="card-img-top" 
+                                     style="height: 200px; object-fit: cover;">
+                                <div class="card-body text-center p-3">
+                                    <h5 class="fw-bold mb-2">Gymkana UNSA</h5>
+                                    <p class="text-muted mb-2 small">
+                                        La aventura más grande del semestre. Equipos de 5 personas recorren 
+                                        todo el campus resolviendo acertijos, retos físicos y pruebas de ingenio. 
+                                        ¡El equipo ganador se lleva premios increíbles!
+                                    </p>
+                                    <span class="badge bg-burgundy">Mensual</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Points Section -->
+    <section class="py-5" id="puntos">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-burgundy text-white mb-3 px-4 py-2">SISTEMA DE PUNTOS</span>
+                    <h2 class="display-4 fw-bold mb-3">Acumula y Canjea Beneficios</h2>
+                    <p class="lead text-muted">
+                        Cada actividad suma puntos que puedes canjear por beneficios exclusivos. 
+                        ¡Mientras más participas, más ganas!
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card tier-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="tier-icon mx-auto mb-3">🥉</div>
+                            <h4 class="fw-bold mb-2">BRONCE</h4>
+                            <p class="text-burgundy fw-bold mb-4">0 - 500 puntos</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Acceso a eventos básicos</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>5% descuento en cafetería</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Badge de perfil</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Newsletter exclusivo</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-burgundy w-100">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card tier-card tier-featured h-100 border-0 shadow">
+                        <div class="ribbon">MÁS POPULAR</div>
+                        <div class="card-body text-center p-4">
+                            <div class="tier-icon mx-auto mb-3">🥈</div>
+                            <h4 class="fw-bold mb-2">PLATA</h4>
+                            <p class="text-burgundy fw-bold mb-4">501 - 1500 puntos</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Todo lo de Bronce</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>15% descuento en librería</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Acceso prioritario a eventos</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Merchandising UNSA gratis</li>
+                            </ul>
+                            <a href="#" class="btn btn-burgundy w-100">Subir de Nivel</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card tier-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="tier-icon mx-auto mb-3">🥇</div>
+                            <h4 class="fw-bold mb-2">ORO</h4>
+                            <p class="text-burgundy fw-bold mb-4">1501+ puntos</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Todo lo de Plata</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Becas parciales exclusivas</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Certificados de liderazgo</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Reconocimiento oficial UNSA</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-burgundy w-100">Meta Final</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meetings Section -->
+    <section class="bg-light py-5" id="reuniones">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-burgundy text-white mb-3 px-4 py-2">REUNIONES</span>
+                    <h2 class="display-4 fw-bold mb-3">Espacios de Encuentro</h2>
+                    <p class="lead text-muted">
+                        Reuniones periódicas para discutir ideas, planificar eventos y fortalecer lazos entre estudiantes.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card meeting-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start">
+                                <div class="meeting-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-cup-hot-fill"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-2">Café Integra</h5>
+                                    <p class="text-muted mb-3">
+                                        Encuentros casuales cada viernes para conocer estudiantes de otras 
+                                        carreras en un ambiente relajado.
+                                    </p>
+                                    <div class="d-flex gap-3 text-muted small">
+                                        <span><i class="bi bi-clock text-burgundy me-1"></i>Viernes 5:00 PM</span>
+                                        <span><i class="bi bi-geo-alt text-burgundy me-1"></i>Cafetería Central</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card meeting-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start">
+                                <div class="meeting-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-lightbulb-fill"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-2">Laboratorio de Ideas</h5>
+                                    <p class="text-muted mb-3">
+                                        Sesiones creativas donde proponemos y desarrollamos nuevos proyectos 
+                                        e iniciativas estudiantiles.
+                                    </p>
+                                    <div class="d-flex gap-3 text-muted small">
+                                        <span><i class="bi bi-clock text-burgundy me-1"></i>Miércoles 6:00 PM</span>
+                                        <span><i class="bi bi-geo-alt text-burgundy me-1"></i>Auditorio B</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card meeting-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start">
+                                <div class="meeting-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-bullseye"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-2">Asamblea Mensual</h5>
+                                    <p class="text-muted mb-3">
+                                        Reunión general donde votamos decisiones importantes y planificamos 
+                                        el calendario de actividades.
+                                    </p>
+                                    <div class="d-flex gap-3 text-muted small">
+                                        <span><i class="bi bi-clock text-burgundy me-1"></i>Primer sábado del mes</span>
+                                        <span><i class="bi bi-geo-alt text-burgundy me-1"></i>Teatro UNSA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card meeting-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start">
+                                <div class="meeting-icon bg-burgundy text-white me-3">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-2">Mentoría Cruzada</h5>
+                                    <p class="text-muted mb-3">
+                                        Estudiantes de ciclos superiores guían a los nuevos. Comparte experiencias 
+                                        y aprende de otros.
+                                    </p>
+                                    <div class="d-flex gap-3 text-muted small">
+                                        <span><i class="bi bi-clock text-burgundy me-1"></i>Martes 4:00 PM</span>
+                                        <span><i class="bi bi-geo-alt text-burgundy me-1"></i>Sala de Estudio 3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5" id="testimonios">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-burgundy text-white mb-3 px-4 py-2">OPINIONES</span>
+                    <h2 class="display-4 fw-bold mb-3">Lo Que Dicen Nuestros Miembros</h2>
+                    <p class="lead text-muted">
+                        Estudiantes reales compartiendo sus experiencias en UNSA Integra.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4 fst-italic">
+                                "Gracias a UNSA Integra conocí a mis mejores amigos de la universidad. 
+                                Los eventos deportivos y el sistema de puntos me motivaron a participar 
+                                más activamente en la vida universitaria."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-burgundy text-white me-3">MC</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">María Condori</h6>
+                                    <small class="text-muted">Ing. de Sistemas - 7mo ciclo</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4 fst-italic">
+                                "El hackathon fue increíble. Mi equipo era de 4 facultades diferentes 
+                                y terminamos ganando el segundo lugar. Los beneficios del nivel Oro 
+                                realmente valen la pena."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-burgundy text-white me-3">JP</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Jorge Paredes</h6>
+                                    <small class="text-muted">Ing. Electrónica - 5to ciclo</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4 fst-italic">
+                                "Como cachimba me sentía perdida, pero los Cafés Integra y la mentoría 
+                                cruzada me ayudaron a adaptarme rapidísimo. Ahora soy mentora y ayudo 
+                                a otros estudiantes nuevos."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-burgundy text-white me-3">LR</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Lucía Ríos</h6>
+                                    <small class="text-muted">Medicina - 4to año</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5" id="registro">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="display-3 fw-bold text-white mb-4">¿Listo Para Unirte?</h2>
+                    <p class="lead text-white mb-4">
+                        Más de 2,500 estudiantes ya están disfrutando de los beneficios de UNSA Integra. 
+                        ¡No te quedes fuera!
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg px-5">
+                        Crear mi cuenta gratis <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-mortarboard-fill me-2"></i>
+                        UNSA INTEGRA
+                    </h5>
+                    <p class="text-white-50">
+                        Conectando estudiantes, creando comunidad. La plataforma oficial de integración 
+                        de la Universidad Nacional de San Agustín de Arequipa.
+                    </p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm me-2">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm me-2">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold mb-3">Plataforma</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#eventos" class="text-white-50 text-decoration-none">Eventos</a></li>
+                        <li class="mb-2"><a href="#juegos" class="text-white-50 text-decoration-none">Juegos</a></li>
+                        <li class="mb-2"><a href="#reuniones" class="text-white-50 text-decoration-none">Reuniones</a></li>
+                        <li class="mb-2"><a href="#puntos" class="text-white-50 text-decoration-none">Rankings</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold mb-3">Recursos</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Preguntas Frecuentes</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Guía de Usuario</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Contacto</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Soporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h6 class="fw-bold mb-3">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Términos de Uso</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Privacidad</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Cookies</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Licencias</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-white opacity-25">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-white-50 mb-0">© 2025 UNSA Integra. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="text-white-50 mb-0">Hecho con ❤️ por estudiantes para estudiantes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
