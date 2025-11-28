@@ -467,3 +467,14 @@ html {
 .shadow {
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12) !important;
 }
+
+/* Ambassador Icon */
+.ambassador-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+}
